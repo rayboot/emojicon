@@ -35,7 +35,7 @@ Branch `master`: [![Build Status](https://travis-ci.org/rockerhieu/emojicon.png?
             android:layout_height="220dp"
             class="com.rockerhieu.emojicon.EmojiconsFragment"/>
 </LinearLayout>
-```
+
 
 ![image](https://raw.githubusercontent.com/rayboot/emojicon/master/images/sample.jpg)
 ![image](https://raw.githubusercontent.com/rayboot/emojicon/master/images/device-2014-07-16-140108.jpg)
