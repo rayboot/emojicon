@@ -17,6 +17,8 @@
 package com.rockerhieu.emojicon;
 
 import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 import android.text.style.DynamicDrawableSpan;
 
@@ -47,5 +49,30 @@ class EmojiconSpan extends DynamicDrawableSpan {
             }
         }
         return mDrawable;
+    }
+
+    @Override
+    public void draw(Canvas canvas, CharSequence text, int start, int end,
+            float x, int top, int y, int bottom, Paint paint)
+    {
+
+        Drawable b = mDrawable;
+        canvas.save();
+
+        int transY = y - b.getBounds().bottom;
+        if (mVerticalAlignment == ALIGN_BASELINE) {
+            transY -= paint.getFontMetricsInt().descent;
+        }
+        System.out.println("22222    start = " + start + "  end = " + end + ""
+                + "  x = " + x
+                + "  top = " + top
+                + "  y = "+ y
+                + "  bottom = " + bottom
+                + "  b.getBounds() = " + b.getBounds().toString()
+                + "  transY = " + transY);
+
+        canvas.translate(x, transY);
+        b.draw(canvas);
+        canvas.restore();
     }
 }

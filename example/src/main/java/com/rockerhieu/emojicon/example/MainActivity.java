@@ -16,6 +16,7 @@
 
 package com.rockerhieu.emojicon.example;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
@@ -51,5 +52,10 @@ public class MainActivity extends FragmentActivity implements EmojiconGridFragme
     @Override
     public void onEmojiconBackspaceClicked(View v) {
         EmojiconsFragment.backspace(mEditEmojicon);
+    }
+
+    public void goShow(View view)
+    {
+        startActivity(new Intent(this, ShowActivity.class));
     }
 }
