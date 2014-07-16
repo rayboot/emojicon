@@ -1,8 +1,10 @@
 ## Emojicon
 
-Do you like emojis in Whatsapp, iMessage? [Emojicon](http://rockerhieu.github.io/emojicon/) is a library to implement such a thing for Android.
+Do you like emojis in Whatsapp, iMessage? [Emojicon](https://github.com/rayboot/emojicon) is a library to implement such a thing for Android.
 
-Fore more information please see [the website](http://rockerhieu.github.io/emojicon/)
+The base code is [Emojicon](https://github.com/rockerhieu/emojicon) 
+
+Fore more information please see [the website](http://www.emoji-cheat-sheet.com/)
 
 Branch `master`: [![Build Status](https://travis-ci.org/rockerhieu/emojicon.png?branch=master)](https://travis-ci.org/rockerhieu/emojicon)
 
@@ -35,7 +37,8 @@ Branch `master`: [![Build Status](https://travis-ci.org/rockerhieu/emojicon.png?
 </LinearLayout>
 ```
 
-![image](https://github.com/rockerhieu/emojicon/raw/master/images/sample.jpg)
+![image](https://raw.githubusercontent.com/rayboot/emojicon/master/images/sample.jpg)
+![image](https://raw.githubusercontent.com/rayboot/emojicon/master/images/device-2014-07-16-140108.jpg)
 
 _Note: You can change the size of emojis in XML layout through attribute `emojiconSize`._
 
@@ -45,20 +48,6 @@ _Note: You can change the size of emojis in XML layout through attribute `emojic
 * `EmojiconEditText`: a `EditText` which can render emojis.
 * `EmojiconGridFragment`: a fragment contains emojis in a `GridView` for the user to choose.
 * `EmojiconsFragment`: a fragment contains many set of emojis for the user to choose.
-
-## Building in IntelliJ
-
-Via Gradle:
-
-```
-compile 'com.rockerhieu.emojicon:library:1.0'
-```
-
-Releases can be found on either Maven Central or [Emojicon's Releases](https://github.com/rockerhieu/emojicon/releases/)
-
-## Building in Eclipse
-
-Read more [here](https://github.com/rockerhieu/emojicon/wiki/Building-in-Eclipse)
 
 ## Acknowledgements
 
