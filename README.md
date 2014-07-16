@@ -2,7 +2,7 @@
 
 Do you like emojis in Whatsapp, iMessage? [Emojicon](http://rockerhieu.github.io/emojicon/) is a library to implement such a thing for Android.
 
-Fore more information please see [the website](http://rockerhieu.github.io/emojicon/)
+Fore more information please see [the website](http://www.emoji-cheat-sheet.com/)
 
 Branch `master`: [![Build Status](https://travis-ci.org/rockerhieu/emojicon.png?branch=master)](https://travis-ci.org/rockerhieu/emojicon)
 
