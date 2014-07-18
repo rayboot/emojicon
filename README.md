@@ -38,7 +38,7 @@ Branch `master`: [![Build Status](https://travis-ci.org/rockerhieu/emojicon.png?
 
 
 ![image](https://raw.githubusercontent.com/rayboot/emojicon/master/images/sample.jpg)
-![image](https://raw.githubusercontent.com/rayboot/emojicon/master/images/device-2014-07-16-140108.jpg)
+![image](https://raw.githubusercontent.com/rayboot/emojicon/master/images/device-2014-07-16-140108.png)
 
 _Note: You can change the size of emojis in XML layout through attribute `emojiconSize`._
 
